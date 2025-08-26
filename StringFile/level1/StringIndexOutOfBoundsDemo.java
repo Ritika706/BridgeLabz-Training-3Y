@@ -21,7 +21,6 @@ public class StringIndexOutOfBoundsDemo {
         System.out.print("Enter text: ");
         String text = sc.next();
 
-        // generateException(text);
         handleException(text);
 
         sc.close();
