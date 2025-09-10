@@ -1,9 +1,9 @@
-class Student {
+class Student1 {
     public int rollNumber;
     protected String name;
     private double CGPA;
 
-    public Student(int rollNumber, String name, double CGPA) {
+    public Student1(int rollNumber, String name, double CGPA) {
         this.rollNumber = rollNumber;
         this.name = name;
         this.CGPA = CGPA;
@@ -19,7 +19,7 @@ class Student {
     }
 }
 
-class PostgraduateStudent extends Student {
+class PostgraduateStudent extends Student1 {
     private String specialization;
 
     public PostgraduateStudent(int rollNumber, String name, double CGPA, String specialization) {

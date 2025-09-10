@@ -1,4 +1,4 @@
-public class Product {
+public class Product1 {
     private String productName;
     private double price;
 
@@ -6,7 +6,7 @@ public class Product {
     private static int totalProducts = 0;
 
     // Constructor
-    public Product(String productName, double price) {
+    public Product1(String productName, double price) {
         this.productName = productName;
         this.price = price;
         totalProducts++; // increase count when new product is created

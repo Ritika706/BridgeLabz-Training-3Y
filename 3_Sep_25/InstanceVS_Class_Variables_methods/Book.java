@@ -1,9 +1,9 @@
-class Book {
+class Book1 {
     public String ISBN;
     protected String title;
     private String author;
 
-    public Book(String ISBN, String title, String author) {
+    public Book1(String ISBN, String title, String author) {
         this.ISBN = ISBN;
         this.title = title;
         this.author = author;
@@ -19,7 +19,7 @@ class Book {
     }
 }
 
-class EBook extends Book {
+class EBook extends Book1 {
     private double fileSize;
 
     public EBook(String ISBN, String title, String author, double fileSize) {
