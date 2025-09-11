@@ -104,5 +104,6 @@ public class MatrixAdvanced {
             System.out.println("\nInverse:");
             print(inv);
         }
+        sc.close();
     }
 }

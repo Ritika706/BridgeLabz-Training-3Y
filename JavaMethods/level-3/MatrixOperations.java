@@ -77,5 +77,6 @@ public class MatrixOperations {
         } else {
             System.out.println("\nMultiplication not possible (size mismatch)");
         }
+        sc.close();
     }
 }

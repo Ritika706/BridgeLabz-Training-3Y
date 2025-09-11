@@ -70,5 +70,6 @@ public class StudentMarks {
         int[][] marks = generateMarks(n);
         double[][] results = calculateResults(marks);
         display(marks, results);
+        sc.close();
     }
 }
